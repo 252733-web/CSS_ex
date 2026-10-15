@@ -1,55 +1,35 @@
-* {
-  font-family: 고딕체;
+header {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
 }
 
-h1 {
-        color:blue; 
-        background-color:yellow; 
-        border:2px solid red; 
-        padding:20px; 
-        border-radius:30px; 
-        box-shadow: 
-          rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-      }
-
-h1:hover{
-  background-color:green;
+main {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
 }
 
-p {
-        font-weight:bold;
-        text-align:center;
-      }
-
-li {
-        text-decoration:underline;
-      } 
-
-h1#next {
-  background-color:skyblue;
+section {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
 }
 
-h1#next:hover{
-  background-color:yellow;
+section#hero{
+  background: yellow;
 }
 
-#later {
-  color:gray;
+section#special{
+  background: blue;
 }
 
-li.inner {
-  text-decoration:none;
-  color:gray;
+section#ask{
+  background: green;
 }
 
-#later, .inner {
-  font-weight:bold;
-}
-
-h3 div {
-  color:red;
-}
-
-h3 > div {
-  color:blue;
+footer {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
 }
