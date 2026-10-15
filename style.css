@@ -16,20 +16,19 @@ section {
   padding: 20px;
 }
 
-section#hero{
-  background: yellow;
+section#cat{
+  background: rgb(152, 152, 152);
 }
 
-section#special{
-  background: blue;
+section#bread{
+  background: rgb(255, 239, 160);
 }
 
-section#ask{
-  background: green;
+section#pro{
+  background: rgb(166, 208, 255);
 }
 
-footer {
-  border: 1px solid black;
-  margin: 20px;
-  padding: 20px;
+section#pos{
+  background: rgb(227, 187, 255);
 }
+
